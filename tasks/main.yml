@@ -1,10 +1,9 @@
 ---
 # tasks file for ansible-latest-s3cmd
 
-- name: Install pip.
-  apt:
-    update_cache=yes
-    name=python-pip
+- name: Install pip via easy install
+  easy_install: 
+    name=pip 
     state=present
 
 - name: Install s3cmd.
