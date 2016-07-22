@@ -1,14 +1,11 @@
 ---
 galaxy_info:
-  author: Ahmed AbouZaid
+  author: Ansible user
   description: Install latest version of s3cmd via pip
   license: GPLv3, GPLv2, LGPLv2
-  min_ansible_version: 1.4
+  min_ansible_version: 2.2
   platforms:
-  - name: Ubuntu
-    versions:
-    - precise
-    - trusty
+  - name: *nix
   categories:
   - aws
   - s3
